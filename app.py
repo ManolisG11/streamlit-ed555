@@ -1,6 +1,5 @@
 #Libraries
 import streamlit as st
-import pyautogui
 
 #Configure the page
 st.set_page_config(page_title="Encryptor-Decryptor", page_icon=":fingerprint", layout="wide")
@@ -42,8 +41,7 @@ if password == "key555":
         user_word = st.text_area('Type an encrypted phrase/word to decrypt it:')
         decrypted_word = decryptor(user_word)
         st.success(decrypted_word)
-        if st.button("Reset"):
-            pyautogui.hotkey("ctrl","F5")
+
 
     else:
         st.warning('Please enter a valid action (E = Encrypt, D = Decrypt)')
