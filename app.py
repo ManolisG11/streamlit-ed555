@@ -1,6 +1,5 @@
 #Libraries
 import streamlit as st
-import pyautogui
 
 #Configure the page
 st.set_page_config(page_title="Encryptor-Decryptor", page_icon=":fingerprint", layout="wide")
