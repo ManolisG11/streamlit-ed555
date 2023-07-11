@@ -1,1 +1,2 @@
-PyAutoGUI==0.9.54
+pyautogui==0.9.54
+mouseinfo==0.1.3
