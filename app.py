@@ -2,7 +2,7 @@
 import streamlit as st
 
 #Configure the page
-st.set_page_config(page_title="Encryptor-Decryptor", page_icon=":fingerprint", layout="wide")
+st.set_page_config(page_title="EncryptX", page_icon="fingerprint", layout="wide")
 
 #Functions
 def encryptor(phrase):
