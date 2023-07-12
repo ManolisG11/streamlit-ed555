@@ -29,7 +29,7 @@ key = 555
 #Main
 st.title("EncryptX :lock_fill")
 
-password = st.text_input('Password')
+password = st.text_input('Password', type="password")
 if password == "key555":
     eord = st.text_input('What do you want to do:(E/D)')
     if eord == "E":
