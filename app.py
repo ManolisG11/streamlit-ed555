@@ -2,7 +2,7 @@
 import streamlit as st
 
 #Configure the page
-st.set_page_config(page_title="EncryptX", page_icon="fingerprint", layout="wide")
+st.set_page_config(page_title="EncryptX", page_icon=":lock_fill", layout="wide")
 
 #Functions
 def encryptor(phrase):
@@ -27,7 +27,7 @@ def decryptor(phrase):
 key = 555
 
 #Main
-st.title("EncryptX :fingerprint")
+st.title("EncryptX :lock_fill")
 
 password = st.text_input('Password')
 if password == "key555":
