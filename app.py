@@ -27,7 +27,7 @@ def decryptor(phrase):
 key = 555
 
 #Main
-st.title("Phrase Encryptor/Decryptor :fingerprint")
+st.title("EncryptX :fingerprint")
 
 password = st.text_input('Password')
 if password == "key555":
